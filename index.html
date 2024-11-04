@@ -1,51 +1,81 @@
- <!DOCTYPE html>
-   <html lang="en">
-     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>My Simple Website</title>
-       <style>
-           body {
-               font-family: Arial, sans-serif;
-               margin: 10px; //changed from 0 to 10px
-               padding: 0;
-               display: flex;
-               flex-direction: column;
-               align-items: center;
-           }
-           ... // rest of the styles
-       </style>
-     </head>
-     <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            width: 80%;
+            max-width: 800px;
+            padding: 1em;
+            background-color: #f4f4f4;
+            margin-bottom: 1em;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
 
-       <header>
-         <h1>Welcome to My Website</h1>
-       </header>
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
 
-       <nav>
-         <a href="#home">Home</a>
-         <a href="#about">About</a>
-         <a href="#contact">Contact</a>
-       </nav>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-       <section id="home">
-         <h2>Home</h2>
-         <p>This is the homepage. Welcome to my website!</p>
-       </section>
+<section id="home">
+    <h2>Home</h2>
+    <p>This is the homepage. Welcome to my website!</p>
+</section>
 
-       <section id="about">
-         <h2>About</h2>
-         <p>This section provides some background information about the website.</p>
-       </section>
+<section id="about">
+    <h2>About</h2>
+    <p>This section provides some background information about the website.</p>
+</section>
 
-       <section id="contact">
-         <h2>Contact</h2>
-         <p>Feel free to reach out! You can add a contact form here.</p>
-       </section>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out! You can add a contact form here.</p>
+</section>
 
-       <footer>
-         <p>&copy; 2024 My Simple Website. All rights reserved.</p>
-       </footer>
+<footer>
+    <p>&copy; 2024 My Simple Website. All rights reserved.</p>
+</footer>
 
-     </body>
-   </html>
+</body>
+</html>
